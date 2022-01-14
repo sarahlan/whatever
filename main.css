@@ -4,8 +4,8 @@ body{
 .navbar .nav-link{
     font-size: 14px;
     text-transform: uppercase;
-    padding-left: 16px!important!;
-    padding-right: 16px!important!;
+    padding-left: 16px!important ;
+    padding-right: 16px!important;
 }
 .navbar-toggler{
     outline:none;
