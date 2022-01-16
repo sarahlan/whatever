@@ -19,7 +19,7 @@ body{
 }
 .carousel-image-1{
     background: linear-gradient(rgba(0,0,0,.3)) (rgba(0,0,0,.4));
-    url('.');
+    url('./images/');
     background-size:cover;
 }
 .carousel-image-2{
