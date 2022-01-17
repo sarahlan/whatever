@@ -4,6 +4,7 @@ body{
 
 .navbar{
     background-color: rgb(95, 81, 172);
+    color:  rgb(238, 231, 171);
 }
 .navbar .nav-link{
     font-size: 14px;
@@ -50,10 +51,10 @@ body{
 }
 .btn-color{
     background-color: rgb(95, 81, 172);
-    color: rgb(238, 231, 171)
+    color: rgb(238, 231, 171);
 }
 .btn-color:hover{
-    color: rgb(216, 199, 67);
+    color: rgb(160, 56, 8);
 }
 .lead{
     color: rgb(238, 231, 171);
@@ -106,16 +107,32 @@ body{
     color:rgb(95, 81, 172);
     padding: 8px 16px;
 }
+.text-uppercase{
+    color: rgb(160, 56, 8);
+}
+.text-capitalize{
+    color:rgb(5, 73, 50);
+}
+.service,
+.py-5{
+    background-color: rgb(238, 231, 171);
+}
 /*==============End of Service Section=======*/
 
 
 
 /*==========Product Section=========*/
 #products{
-    background: #000;
+    background-color: rgb(160, 56, 8)!important;
 }
 .product-title{
-    color:#fff;
+    color:rgb(238, 231, 171);
+    font-size: 50px;
+}
+.card-body{
+    background-color: rgb(238, 231, 171);
+    color: rgb(5, 73, 50);
+    outline: rgb(160, 56, 8)!important;
 }
 .single-item{
     display: inline-block;
@@ -179,21 +196,27 @@ body{
 
 /*=========About Section======*/
 #about-sec{
-    margin-top: 25px;
+    background-color:rgb(238, 231, 171);
 }
 .text-color{
-    color:#000;
+    color:rgb(5, 73, 50);
 }
 .watch-img{
     margin-top: 35px;
+    margin-bottom: 35px;
 }
 .watch-img{
     animation-name: imgLeft;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
 }
 .about-text{
     animation-name: textRight;
-    animation-duration:3s;
+    animation-duration:2.5s;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.text{
+    font-size: 22px;
 }
 @keyframes imgLeft{
     0%{
