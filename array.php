@@ -26,8 +26,8 @@ $name = 20;
 $name = 20.5784;
 
 //Array
-$names = array("Daniel" , "Dennis" , "Michael")
-echo $names ['1'];
+$names = array("Sarah" , "Cody" , "Ashlyn" , "Aidan" , "Hadley")
+echo $names ['0'];
 
 ?>
 
