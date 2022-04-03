@@ -11,9 +11,11 @@
 <script src="https://kit.fontawesome.com/3024bfed98.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
     <title>E-commerce</title>
+    <a href = "index.php">
   </head>
   <body>
 
+<?php
 
 
 //String

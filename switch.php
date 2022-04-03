@@ -11,6 +11,7 @@
 <script src="https://kit.fontawesome.com/3024bfed98.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
     <title>E-commerce</title>
+    <a href = "index.php">
   </head>
   <body>
 
@@ -32,11 +33,29 @@ $x = 1;
     elseif ($x == 2) {
         echo "Daniel is kinda handsome";
     }
-    
-    else 
-    {
+    else {
         echo "Daniel is very ugly!";
     }
+
+switch($x){
+    case 1:
+        echo "The answer is 1";
+    break;
+    case 2:
+        echo "The answer is number";
+    break;
+    case 3:
+        echo "The answer is 1";
+    break;
+    case 4:
+        echo "The answer is number";
+    break;
+    default:
+        echo "There is no answer";
+}
+
+
+
 
 ?>
 
