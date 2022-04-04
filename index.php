@@ -11,10 +11,28 @@
 <script src="https://kit.fontawesome.com/3024bfed98.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
     <title>E-commerce</title>
-    <a href = "array.php">
-        <a href = "switch.php>
   </head>
   <body>
+
+
+
+
+
+  <?php
+
+<form method = "GET">
+    <input type = "text" name = "person">
+    <button>SUBMIT </button>
+</form>
+
+    $name = $_GET ['person'];
+    echo $name. " is a handsome fellow!";
+?>
+
+
+
+
+
 
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-rgb(95, 81, 172)">
@@ -112,17 +130,6 @@
         </div>  
      </section>
     <!--End of Slider-->
-
-    <?php
-
-<form method = "GET">
-    <input type = "text" name = "person">
-    <button>SUBMIT </button>
-</form>
-
-    $name = $_GET ['person'];
-    echo $name. " is a handsome fellow!";
-?>
 
 
 </div>
