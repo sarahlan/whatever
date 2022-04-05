@@ -20,7 +20,7 @@ $x = 1;
     elseif ($x == 2) {
         echo "Daniel is kinda handsome";
     }
-    else {
+    else {    
         echo "Daniel is very ugly!";
     }
 

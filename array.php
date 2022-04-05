@@ -1,9 +1,9 @@
 <?php
   
   include 'header.php';
+  ?>
 
-
-
+<?php
 //String
 $name = 'Coding is fun';
 

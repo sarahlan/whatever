@@ -1,3 +1,6 @@
+<?php
+     include_once 'functions/something.php';
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,6 +19,7 @@
 
   
 <!--Nav Bar-->
+<header>
 <nav class="navbar navbar-expand-sm navbar-dark bg-rgb(95, 81, 172)">
         <div class="container">
             <a href="#" class="navbar-brand"></a>
@@ -42,5 +46,12 @@
     </div>
         </div>
      </nav>
+</header>
       <!--End of nav bar-->
+
+      <section>
+          <div class = "someMainContent">
+              <h1>Hi there!</h1>
+</div>
+</section>
 
