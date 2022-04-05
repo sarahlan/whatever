@@ -25,12 +25,6 @@
     </button>
     <div class="collapse navbar-collapse"id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a href="#" class="nav-link"> Home </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link"> Services </a>
-            </li>
             <li class="nav-item">
                 <a href="array.php" class="nav-link"> Array </a>
             </li>
@@ -41,15 +35,9 @@
                 <a href="calculator.php" class="nav-link"> Calculator </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link"> About </a>
+                <a href="calendar.php" class="nav-link"> Calendar </a>
             </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link"> Contact </a>
-            </li>
-            <li class="nav-item"
-                <a href="#" class="nav-link">
-                    <i class="fas fa-shopping-cart fa-2x"></i>
-                </a>
+
         </ul>
     </div>
         </div>
