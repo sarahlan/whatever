@@ -1,5 +1,5 @@
 <?php
-     include_once 'functions/something.php';
+    include 'functions/user-functions.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -29,6 +29,9 @@
     </button>
     <div class="collapse navbar-collapse"id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+                <a href="index.php" class="nav-link"> Index </a>
+            </li>
             <li class="nav-item">
                 <a href="array.php" class="nav-link"> Array </a>
             </li>
