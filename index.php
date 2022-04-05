@@ -13,6 +13,13 @@
     echo $name. " is a handsome fellow!";
 ?>
 
+<section>
+          <div class = "someMainContent">
+              <h1>Hi there!</h1>
+</div>
+</section>
+
+
 
 
 
