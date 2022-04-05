@@ -5,7 +5,7 @@
  <form>
 <input type ="text" name="num1" placeholder="Number 1">
 <input type ="text" name="num2" placeholder="Number 2">
-<select name ="operator">
+<select name="operator">
     <option>None</option>
     <option>Add</option>
     <option>Subtract</option>
@@ -13,7 +13,7 @@
     <option>Divide</option>
 </select>
 <br>
-<button type = "submit" name = "submit" value = "sumbit"> Calculate </button>
+<button type="submit" name="submit" value="sumbit"> Calculate </button>
 </br>
 </form>
 <p> The answer is:</p>
