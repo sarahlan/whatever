@@ -61,9 +61,46 @@ setcookie("name", "Daniel", time() + 172800);
 
 $_SESSION['name'] = "12";
 
-
-
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---LOGIN SYSTEM--->
+<?php
+require "header.php";
+?>
+
+<main>
+    <p>You are logged out!</p>
+    <p>You are logged in!</p>
+</main>
+
+<?php
+require "footer.php";
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
