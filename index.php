@@ -10,6 +10,34 @@
 
 
 
+<?php
+
+/*
+$GLOBALS
+$_POST
+$_GET
+$_COOKIE
+$_SESSION
+*/
+
+$x = 5;
+function something() {
+    $y = 10;
+    echo $GLOBALS['x'];
+}
+
+something();
+
+echo $_GET['name'];
+?>
+
+<form method="GET">
+    <input type="hidden" name="name" value="Sarah">
+    <button type="submit"> PRESS ME! </button>
+</form>
+
+
+
 
 <form method = "GET">
     <input type = "text" name = "person">
@@ -22,7 +50,20 @@
     echo $name. " is a handsome fellow!";
 ?>
 
+<?php
 
+/* 
+$_COOKIE
+$_SESSION
+*/
+
+setcookie("name", "Daniel", time() + 172800);
+
+$_SESSION['name'] = "12";
+
+
+
+?>
 
 
 
