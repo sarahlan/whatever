@@ -1,3 +1,38 @@
+<!---LOGIN SYSTEM--->
+<?php
+require "header.php";
+?>
+
+<main>
+    <div class="wrapper-main">
+        <section class= "section-default">
+            <?php
+            if (isset($_SESSION['userId'])) {
+                echo '<p class= "login-status"> You are logged in!</p>';
+            }
+            else { 
+                echo '<p class= "login-status"> You are logged out!</p>';
+            }
+
+            ?>
+</section>
+</div>
+</main>
+
+<?php
+require "footer.php";
+?>
+
+
+
+
+
+
+
+
+
+
+
 <?php
      include'header.php';
 ?>
@@ -7,6 +42,9 @@
               <h1>Hi there!</h1>
 </div>
 </section>
+
+
+
 
 
 
@@ -60,58 +98,7 @@ $_SESSION
 setcookie("name", "Daniel", time() + 172800);
 
 $_SESSION['name'] = "12";
-
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!---LOGIN SYSTEM--->
-<?php
-require "header.php";
-?>
-
-<main>
-    <p>You are logged out!</p>
-    <p>You are logged in!</p>
-</main>
-
-<?php
-require "footer.php";
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!--Slider-->
     <section id="main">
