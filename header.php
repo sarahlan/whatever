@@ -1,7 +1,4 @@
-<?php
-    session_start();
-    include 'functions/user-functions.php';
-?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -45,8 +42,8 @@
         }
         else { 
             echo '<form action="includes/login.inc.php" method="post">
-            <input type="text" name="mailuid" placeholder="Username/E-mail...">
-            <input type="password" name="pwd" placeholder="Password...">
+            <input type="text" name="mailuid" placeholder="E-mail/Username">
+            <input type="password" name="pwd" placeholder="Password">
             <button type="submit" name="login-sumbit">Login</button>
          </form>
          <a href="signup.php"> Signup</a>';
@@ -54,7 +51,7 @@
         ?>
 
     </div>
-</nav>
+</nav>  
 </header>
 
 

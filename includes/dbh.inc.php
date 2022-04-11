@@ -1,8 +1,8 @@
 <?php
 
-$servername = "datadev.devcatalyst";
+$servername = "localhost:3306";
 $dBUsername = "mahs_slancaster";
-$dBPassword = "";
+$dBPassword = "mustangs";
 $dBName = "mahs_slancaster";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
